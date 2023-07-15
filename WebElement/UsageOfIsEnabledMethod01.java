@@ -15,7 +15,18 @@ public static void main(String[] args) throws Throwable {
 	if (SubmitOption.isEnabled()) {
 		System.out.println("The SubmitOption is enabled/active");
 	} else {
-		System.out.println();
+		WebElement AcceptTermsOfService  = driver.findElement(By.xpath("/html/body/div[1]/div/div/div/div[2]/section/div/div/section/div/div/div/div[1]/div/div/div[17]/label/h6/button"));
+		AcceptTermsOfService.click();
+		Thread.sleep(2000);
+		WebElement AcceptTermsOfServiceCheclBox = driver.findElement(By.id("confbtn"));
+		AcceptTermsOfServiceCheclBox.click();
+		Thread.sleep(2000);
+		WebElement closeOption = driver.findElement(By.xpath("//button[@class='btn btn-secondary' and @data-dismiss='modal']"));
+		closeOption.click();
+		Thread.sleep(3000);
+		System.out.println("The SubmitOption is inactive");
 	}
+	driver.manage().window().minimize();
+	driver.quit();
 }
 }
