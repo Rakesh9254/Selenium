@@ -13,7 +13,9 @@ public class UploadFileOnWebPage {
 		Thread.sleep(8000);
 		//Using Sendkey()Method for upload the file
 		driver.findElement(By.xpath("//input[@id='uploadFile']")).sendKeys("/Users/rakesh9254/Desktop/Rakesh Roshan.pdf");
+		Thread.sleep(4000);
 		driver.manage().window().minimize();
+		
 		driver.quit();
 
 	}
