@@ -1,0 +1,49 @@
+What are the advantages and disadvantages of Selenium?
+Difference between:
+	-close() and quit()
+	-findElement() and findElements()
+	-click() and submit()
+	-Webpage Screenshot and WebElement Screenshot
+	-implicit Wait and explicit wait.
+	-Select Class and Action Class.
+Briefly explain Selenium Webdriver Architecture.
+What is Synchronization in Selenium?
+In synchronization what are the different waits u are aware Of?
+Do you know how to handle Dropdowns?
+What are the possible ways to click on the button?
+How do you scroll the webpage and why It is required?
+What do you know about testNG?
+What are the annotations of testNG you are aware of?
+Give me an Example for the following in the selenium library w.r.t Java:
+	- method Overloading
+	- constructor overloading
+	- Compile time polymorphism.
+	- Multiple Inheritance
+	- MultiLevel Inheritance
+	- Hierarchical Inheritance
+	- Difference between Abstract Class and Interface
+What are the types of Frameworks you are aware of could you plz explain the same?
+Explain the WebElement Architecture and its possibilities in terms of which we are using.
+Do you how to optimise the search criteria for findElement on the webpage?
+Could you plz explain:
+	How to perform parallel Execution, Batch Execution, Group Execution, and Distributed Parallel Execution.
+What is a Suite file in TestNG?
+What is a testNG Class?
+What are the different types of Popups you are aware of?
+Do you know how to handle the popups?
+What is Action Class in Selenium? What are the applications of it?
+What do you know about drop downs could u plz explain the same?
+What do you know about Data driven testing?
+Do you know how to read the data from the property file and Excel sheet?
+Explain to me how do u automate a test case into a test script.
+Why do we need a framework?
+What are the automation standards you are aware of?
+what are the post conditions which you use in the automation script?
+What are the Java coding standards?
+How to launch the browser.
+what is WebDriver driver = new ChromeDriver();
+What are the browsers supported by the Selenium tool?
+What are the test case design techniques u are aware of it?
+What u felt is more challenging in automation while automating a script?
+Why Software Testing?
+What makes u become an automation engineer?
